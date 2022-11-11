@@ -3,7 +3,7 @@ Config = {
 	-- UseTarget should only be set to true when using qb-target
 	UseTarget = GetConvar('UseTarget', 'false') == 'true',
 
-	OutsideLocation 	= vector4(55.55, 6472.18, 31.43, 44.0),
+	OutsideLocation 	= vector4(827.91, 2191.45, 52.38, 244.0), -- (55.55, 6472.18, 31.43, 44.0)
 	InsideLocation 		= vector4(1073.0, -3102.49, -39.0, 266.61),
 	DutyLocation 		= vector4(1048.7, -3100.62, -38.2, 88.02),
 	DropLocation 		= vector4(1048.224, -3097.071, -38.999, 274.810),
@@ -16,7 +16,7 @@ Config = {
 	MaxItemsReceived 	= 5,
 	MinItemReceivedQty 	= 2,
 	MaxItemReceivedQty 	= 6,
-	ChanceItem 			= "cryptostick",
+	ChanceItem 			= "plastic", --default cryptostick
 	LuckyItem 			= "rubber",
 	
 	PickupLocations = {
