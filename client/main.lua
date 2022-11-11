@@ -48,7 +48,7 @@ local function RegisterEntranceTarget()
   if Config.UseTarget then
     entranceZone = exports['qb-target']:AddBoxZone(entranceTargetID, coords, 1, 4, {
       name = entranceTargetID,
-      heading = 244.0,  --default 44
+      heading = 44.0,  --default 44
       minZ = Config.OutsideLocation.z - 1.0,
       maxZ = Config.OutsideLocation.z + 2.0,
       debugPoly = false,
@@ -65,7 +65,7 @@ local function RegisterEntranceTarget()
   else
     entranceZone = BoxZone:Create(coords, 1, 4, {
       name = entranceTargetID,
-      heading = 244.0, -- default 44
+      heading = 44.0, -- default 44
       minZ = Config.OutsideLocation.z - 1.0,
       maxZ = Config.OutsideLocation.z + 2.0,
       debugPoly = false
