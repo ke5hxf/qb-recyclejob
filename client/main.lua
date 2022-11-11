@@ -51,7 +51,7 @@ local function RegisterEntranceTarget()
       heading = 244.0,  --default 44
       minZ = Config.OutsideLocation.z - 1.0,
       maxZ = Config.OutsideLocation.z + 2.0,
-      debugPoly = true,
+      debugPoly = false,
     }, {
       options = {
         {
@@ -68,7 +68,7 @@ local function RegisterEntranceTarget()
       heading = 244.0, -- default 44
       minZ = Config.OutsideLocation.z - 1.0,
       maxZ = Config.OutsideLocation.z + 2.0,
-      debugPoly = true
+      debugPoly = false
     })
 
     entranceZone:onPlayerInOut(function(isPointInside)
